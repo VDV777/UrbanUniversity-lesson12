@@ -3,8 +3,7 @@ from random import random, randint
 
 def getNumberPass(minNumber: int, maxNumber: int) -> str:
 
-    # variant = randint(minNumber, maxNumber)
-    variant = 3
+    variant = randint(minNumber, maxNumber)
     print(f'variant: {variant}')
     password = ''
 
